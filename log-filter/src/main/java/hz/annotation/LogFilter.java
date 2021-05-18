@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
  * @date 2021/4/30
  */
 
-@Target({ElementType.METHOD,ElementType.TYPE})
+@Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface LogFilter {
     /*接口名称*/
